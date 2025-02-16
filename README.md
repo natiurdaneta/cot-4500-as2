@@ -29,13 +29,14 @@ def neville_method(x, y, target):
     
     return Q[n - 1, n - 1]
 
-# Given data
+#Given data
 x = np.array([3.6, 3.8, 3.9])
 y = np.array([1.675, 1.436, 1.318])
 
-# Target value
+#Target value
 target = 3.7
 
-# Compute the interpolated value
+#Compute the interpolated value
 result = neville_method(x, y, target)
 print(f"Interpolated value at f(3.7): {result}")
+
