@@ -39,9 +39,3 @@ target = 3.7
 # Compute the interpolated value
 result = neville_method(x, y, target)
 print(f"Interpolated value at f(3.7): {result}")
-
-
-
-
-
-
