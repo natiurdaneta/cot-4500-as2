@@ -41,9 +41,9 @@ result = neville_method(x, y, target)
 print(f"Interpolated value at f(3.7): {result}")
 ```
 ### Output - Question 1 
-```python
+
 Question 1: Interpolated value at f(3.7): 1.554999999999995
-```
+
 ## Question 2: Newton’s Forward Method
 ```python
 def newton_forward(x, y, degree):
@@ -78,11 +78,11 @@ for degree in degrees:
     print(f"Degree {degree} polynomial approximation: {poly(7.3)}")
 ```
 ### Output - Question 2
-```python
+
 Question 2: Degree 1 polynomial approximation: 24.47718457889519
 Question 2: Degree 2 polynomial approximation: 24.47718457889519
 Question 2: Degree 3 polynomial approximation: 24.47718457889519
-```
+
 
 ## Question 3: Approximate f(7.3)
 ```python
@@ -92,9 +92,9 @@ result = poly(7.3)
 print(f"Question 3: Approximated value at f(7.3): {result}")
 ```
 ### Output - Question 3
-```python
+
 Question 3: Approximated value at f(7.3): 24.47718457889519
-```
+
 ## Question 4: Divided Difference Method (Hermite Polynomial)
 ```python
 def divided_differences(x, y, y_prime):
@@ -128,7 +128,7 @@ print("Question 4: Hermite polynomial approximation matrix:")
 print(F)
 ```
 ### Output - Question 4
-```python
+
 Question 4: Hermite polynomial approximation matrix:
 [[ 3.60000000e+00  1.67500000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00 ]  
  [ 3.60000000e+00  1.67500000e+00 -1.19500000e+00  0.00000000e+00  0.00000000e+00 ]  
@@ -136,7 +136,7 @@ Question 4: Hermite polynomial approximation matrix:
  [ 3.80000000e+00  1.43600000e+00 -1.18800000e+00  3.50000000e-02  1.75000000e-01 ]  
  [ 3.90000000e+00  1.31800000e+00 -1.18000000e+00  8.00000000e-02 -1.28571429e-02 ]  
  [ 3.90000000e+00  1.31800000e+00 -1.18200000e+00 -2.00000000e-02 -1.00000000e+00 ]]
-```
+
 ## Question 5: Cubic Spline Interpolation
 ```python
 from scipy.interpolate import CubicSpline
@@ -161,7 +161,7 @@ print("Question 5: Vector x:")
 print(x_solution)
 ```
 ### Output - Question 5
-```python
+
 Question 5: Matrix A:
 [[ 1.  0.  0.  0. ]  
  [ 3. 12.  3.  0. ]  
@@ -172,7 +172,7 @@ Question 5: Vector b:
 [ 0.  -0.02702703  0.10810811  0. ]
 Question 5: Vector x:
 [ 0.  0.  1.  0. ]
-```
+
 
 
 
